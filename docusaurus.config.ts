@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'OpsDocs',
+  tagline: 'Documentation for my projects and other stuff I find useful ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -67,6 +67,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -136,6 +140,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['hcl', 'bash', 'jq', 'powershell', 'promql', 'visual-basic'],
     },
   } satisfies Preset.ThemeConfig,
 };
