@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://dbeilin.github.io',
-  baseUrl: '/',
+  baseUrl: '/OpsDocs/',
 
   organizationName: 'dbeilin',
   projectName: 'OpsDocs',
