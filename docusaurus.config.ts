@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Documentation for my projects and other stuff I find useful ',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://dbeilin.github.io',
   baseUrl: '/',
 
   organizationName: 'dbeilin',
